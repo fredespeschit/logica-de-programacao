@@ -1,0 +1,20 @@
+início {
+    //Declaração de váriaveis
+    real: valorFuturo; //FV = será calculado
+    real: valorPresente; //PV
+    real: taxaDeJuros; //i
+    real: prazo; //n
+    
+    //Input com os valores que será informado pelo usuario
+    leia ("Valor presente", valorPresente);
+    leia ("Taxa de Juros", taxaDeJuros);
+    leia("Prazo em meses", prazo);
+    
+    //Calculo que será atribuido a váriavel ValorFuturo
+    //pot: recebe duas entradas pot(valorDaBase, valorDoExpoente)
+    valorFuturo = valorPresente * pot(1+taxaDeJuros/100, prazo);
+    
+    
+    //Output com o Valor Futuro 
+    escreva ("VF é: ", valorFuturo);
+}

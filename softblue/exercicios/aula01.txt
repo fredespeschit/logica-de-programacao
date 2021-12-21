@@ -1,0 +1,16 @@
+início {
+    //Comentários são feitos com duas barras
+    
+    //Declarando as váriaveis
+    caractere: nome; //Tipo de Dado caractere recebe textos (String)
+    inteiro: idade; //Tipo de dado Inteiro, recebe valores inteiro (1, 2, -1, -4, 200, 1000)
+    real: altura; //Tipo de dados Real, recebe valores ... (1.89, 2.400, 3.0)
+    
+    leia("Qual é o seu nome: ", nome); //Input para receber o nome do usuario
+    leia("Qual é a sua idade: ", idade); //Input para receber a idade do usuario
+    leia("Qual é a sua altura: ", altura); //Input para receber a altura do usuario
+    
+    
+    
+    escreva("Seja bem vinde: " + nome); //Output: saida de dados
+}

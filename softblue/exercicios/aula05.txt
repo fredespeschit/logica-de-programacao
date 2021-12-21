@@ -1,0 +1,28 @@
+início {
+    //Declaração das variaveis
+    real: a;
+    real: b;
+    real: c;
+    real: delta;
+    real: x1;
+    real: x2;
+    
+    //Input, para a inserção dos dados
+    leia("A", a);
+    leia("B", b);
+    leia("C", c);
+    
+    //Calculando o delta
+    //Pot de b ao quadrado
+    //delta = b * b - 4 * a * c
+    delta = pot(b, 2) - 4 * a * c;
+    
+    //Importante se atentar as priorizações dos calculos, para que o mesmo não fique errado
+    //Apos calcular o delta, é preciso multiplicar e depois dividir
+    x1 = (-b + rad(delta)) / (2 * a);
+    x2 = (-b - rad(delta)) / (2 * a);
+    
+    //Output com os resultados
+    escreva("x1: ", x1);
+    escreva("x2: ", x2);
+}

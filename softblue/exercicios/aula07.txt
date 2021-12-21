@@ -1,0 +1,17 @@
+início {
+     //Escreva um programa que valide uma idade
+     
+     Inteiro: idade;
+     
+     leia(idade);
+     
+     se (idade < 0) {
+         escreva("Invalida");
+     } senão se (idade < 12) {
+            escreva("Criança");
+     } senão se (idade < 18) {
+            escreva("Adolescente");
+     } senão {
+            escreva("Adulto");
+     }
+}

@@ -1,0 +1,9 @@
+início {
+    real: tf;
+    leia(tf); //Se não passar um texto, a caixa de input será exibida sem texto
+    
+    real: fc;
+    fc = ((tf - 32) / 9) * 5;
+    
+    escreva("A temperatura em Celcius é: ", fc + " graus");
+}

@@ -1,0 +1,27 @@
+início {
+    inteiro: radInteiro;
+    real: radReal;
+    
+    //Raiz quadrada Inteiro
+    radInteiro = rad(4);
+    escreva(radInteiro);
+
+    //Raiz quadrada Real
+    radReal = rad(3.0);
+    escreva(radReal);
+    
+    //Importancia de informar as casas decimais
+    //Resultado indesejado
+    radReal = rad(3);
+    escreva(radReal);
+    
+    inteiro: potInteiro;
+    real: potReal;
+    
+    potInteiro = pot(2, 5);
+    escreva(potInteiro);
+    
+    potReal = pot(2.1, 5);
+    escreva(potReal);
+    
+}
