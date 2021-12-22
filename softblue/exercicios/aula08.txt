@@ -1,0 +1,13 @@
+início {
+    inteiro: max;
+    inteiro: min;
+    inteiro: n;
+    
+    leia(max);
+    leia(min);
+    n = min;
+    enquanto(n <= max) {
+        escreva(n);
+        n = n +1;
+    }
+}
