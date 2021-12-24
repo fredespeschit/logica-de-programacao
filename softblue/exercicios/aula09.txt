@@ -1,0 +1,11 @@
+início {
+    //Crie uma tabuada
+    
+    inteiro: t;
+    
+    leia("Informe o número para calcular a tabuada: ", t);
+    
+    
+    
+   
+}

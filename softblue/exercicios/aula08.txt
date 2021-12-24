@@ -1,13 +1,18 @@
 início {
+    //Declarando variaveis
     inteiro: max;
     inteiro: min;
     inteiro: n;
-    
-    leia(max);
-    leia(min);
+    //input para leitura 
+    leia("Digite o valor max:", max);
+    leia("Digite o valor min", min);
     n = min;
-    enquanto(n <= max) {
-        escreva(n);
+
+    enquanto (n <= max){
+        se(n % 2 == 0) {
+            escreva("numeros pares: ", n);
+        }
         n = n +1;
     }
+   
 }
